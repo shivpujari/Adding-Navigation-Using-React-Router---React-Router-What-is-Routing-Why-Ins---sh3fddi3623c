@@ -1,7 +1,7 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 import { Link, Route, Switch, useLocation } from "react-router-dom";
-import LocationDisplay from "./LocationDisplay";
+import LocationDisplayjs from "./LocationDisplay";
 
 function About() {
   return <div>This is about page.</div>;
@@ -36,4 +36,4 @@ class App extends Component {
 
 
 export default App;
-export const LocationDisplay = LocationDisplay;
+export const LocationDisplay = LocationDisplayjs;
